@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+
+header {
+  width: 1200px;
+  height: 200px;
+  margin: auto;
+}
+li {
+  list-style: none;
+}
+a{
+  text-decoration: inherit;
+  color: inherit;
+}
+/*---serviceArea---*/
+.serviceArea {
+  height: 30px;
+  text-align: right;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.serviceArea li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/*---logo---*/
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  height: 100px;
+  cursor: pointer;
+}
+
+/*---nav---*/
+.gnb {
+  width: 85%;
+  height: 50px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.gnb > ul {
+  display: inline-block;
+  padding: 0 10px;
+}
+.gnb ul > li {
+  display: inline-block;
+}
+.gnb li > a {
+  padding: 10px;
+  display: block;
+}
+.gnb li {
+  position: relative;
+}
+.gnb ul ul {
+  display: none;
+  position:absolute;
+  top:100%
+}
+.gnb li:hover > ul {
+  display: block;
+}
+/*---searchArea---*/
+.searchArea {
+  margin-left: 350px;
+}
+.searchArea input {
+  padding: 5px;
+}

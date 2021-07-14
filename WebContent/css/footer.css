@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+footer {
+  width: 1200px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ddd;
+}
+.footer-first{
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  font-size: 15px;
+}
+.title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.time{
+  font-size: 13px;
+}
+.footer-second{
+  width: 300px;
+  height: 150px;
+  font-size: 13px;
+  line-height: 25px;
+}
